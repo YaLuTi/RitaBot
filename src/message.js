@@ -179,12 +179,12 @@ module.exports = async function run (config, message)
       {
 
          // Replace username with nickname if exists
-         /*if (data.member.displayName)
+         if (data.member.displayName)
          {
 
             data.message.author.username = data.member.displayName;
             
-         }*/
+         }
 
       }
 
