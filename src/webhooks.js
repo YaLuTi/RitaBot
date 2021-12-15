@@ -1,5 +1,5 @@
 // JavaScript source code
-const {WebhookClient, MessageEmbed} = require('discord.js')
+const {WebhookClient, MessageEmbed} = require('discord.js');
 
 module.exports = {
     name : 'webhook',
@@ -9,7 +9,7 @@ module.exports = {
             .setTitle("this is an embed").setColor('GREEN').setTimestamp().setDescription(args.join(" "))
     wc.send({
         username : message.author.tag,
-        avatarURL : message.author.displayAvatarURL({ dynamic : true }),
+        avatarURL : message.author.displayAvatarURL({dynamic : true}),
         embeds : [embed]
     })
     }
