@@ -182,7 +182,7 @@ module.exports = async function run (config, message)
          if (data.member.displayName)
          {
 
-            data.message.author.username = data.member.displayName;
+            data.message.author.username = "TestName";
             
          }
 
