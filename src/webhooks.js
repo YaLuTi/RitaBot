@@ -1,5 +1,5 @@
 // JavaScript source code
-const { WebhookClient, MessageEmbed } = require('discord.js')
+const {WebhookClient, MessageEmbed} = require('discord.js')
 
 module.exports = {
     name : 'webhook',
