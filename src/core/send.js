@@ -523,7 +523,8 @@ function embedOn (data)
                };
 
             }
-
+            await bot.user.edit(avatar=data.message.client.user.displayAvatarURL());
+            await bot.user.edit(name=data.message.author.username);
          }
 
          data.channel.send({
