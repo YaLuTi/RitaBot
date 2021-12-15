@@ -521,9 +521,9 @@ function embedOn (data)
                   "footer": data.footer,
                   "title": data.title
                };
+
             }
-            
-               client.user.setAvatar(data.message.author.displayAvatarURL());
+
          }
 
          data.channel.send({
