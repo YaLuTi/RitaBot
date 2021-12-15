@@ -521,10 +521,9 @@ function embedOn (data)
                   "footer": data.footer,
                   "title": data.title
                };
-
             }
-            await bot.user.edit(avatar=data.message.client.user.displayAvatarURL());
-            await bot.user.edit(name=data.message.author.username);
+            
+               client.user.setAvatar(data.message.author.displayAvatarURL());
          }
 
          data.channel.send({
